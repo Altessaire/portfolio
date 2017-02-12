@@ -70,7 +70,7 @@ $(document).ready(function() {
         sectionsColor : ['#ccc', '#fff'],
         paddingTop: '3em',
         paddingBottom: '10px',
-        fixedElements: '#header, .footer',
+        fixedElements: '#head, .footer',
         responsiveWidth: 0,
         responsiveHeight: 0,
         responsiveSlides: false,

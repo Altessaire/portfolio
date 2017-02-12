@@ -119,7 +119,6 @@ body {
 }
 
 .section {
-    background-size: cover;
 }
 
 .work-title {
@@ -140,5 +139,4 @@ body {
 
 #work3 {
   background-image:url("img/design-tools.jpg");
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
