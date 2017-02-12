@@ -28,26 +28,30 @@ body {
 }
 
 
-
+/* Navbar white links when focus/hover */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
 }
 
+/* Navbar white links */
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
 }
 
+/* Navbar positioning  */
 .navbar {
   margin-top: 25px;
 }
 
+/* Navbar Transparent */
 .navbar-transparent {
   background-color: transparent;
   border: none;
   width: auto;
 }
 
+/* Navbar fixed */
 .navbar-fixed {
   position: fixed;
   z-index: 2;
@@ -129,8 +133,8 @@ body {
 }
 
 #work1 {
-  background-image:url("img/vacalians.jpg");
-  z-index: 10;
+  background-image:url("img/tohapi2.jpg");
+  filter: saturate(150%);
 }
 
 #work2 {
