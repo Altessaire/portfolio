@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio M",
+  "homepage": "https://altessaire.github.io/portfolio/",
+  "authors": [
+    "Altessaire <mathieu@schimmerling.com>"
+  ],
+  "description": "This is Mathieu Schimmerling's Portfolio, i'm a web developer PHP. Explore my portfolio to discover my projects and to know more about me.",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "web",
+    "developer",
+    "PHP",
+    "Javascript",
+    "git",
+    "html",
+    "css",
+    "responsive",
+    "design"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fullpage.js": "^2.9.2",
+    "bootstrap": "^3.3.7"
+  }
+}
