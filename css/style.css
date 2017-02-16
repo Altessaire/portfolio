@@ -28,87 +28,92 @@ body {
 }
 
 
-/* Navbar white links when focus/hover */
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
-}
-
-/* Navbar white links */
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-}
-
-/* Navbar positioning  */
-.navbar {
-  margin-top: 25px;
-}
-
-/* Navbar Transparent */
-.navbar-transparent {
-  background-color: transparent;
-  border: none;
-  width: auto;
-}
-
-/* Navbar fixed */
-.navbar-fixed {
-  position: fixed;
-  z-index: 2;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-
-.navbar > .nav-no-pad-left {
-  padding-left: 0px;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-.nav > li {
-  width: 120px;
-  text-align: center;
-}
-
-
-
 @media (min-width: 768px) {
-.navbar-nav > li > a {
-  padding: 0px;
-  letter-spacing: .480em;
-  font-size: 10px;
-  font-size: 1.0rem;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
+  /* Navbar white links when focus/hover */
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+      color: #ffffff;
+  }
+
+  /* Navbar white links */
+  .navbar-default .navbar-nav > li > a {
+      color: #ffffff;
+  }
+
+  /* Navbar positioning  */
+  .navbar {
+    margin-top: 25px;
+  }
+
+  /* Navbar Transparent */
+  .navbar-transparent {
+    background-color: transparent;
+    border: none;
+    width: auto;
+  }
+
+  /* Navbar fixed */
+  .navbar-fixed {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+
+  .navbar > .nav-no-pad-left {
+    padding-left: 0px;
+  }
+
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+
+  .nav > li {
+    width: 120px;
+    text-align: center;
+  }
+
+    .navbar-nav > li > a {
+      padding: 0px;
+      letter-spacing: .480em;
+      font-size: 10px;
+      font-size: 1.0rem;
+      font-style: normal;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .navbar-link {
+      margin-top: 20px;
+    }
+
+    .nav > li > a {
+      padding: 0px;
+    }
+
 }
 
-.navbar-link {
-  margin-top: 20px;
-}
-
-.nav > li > a {
-  padding: 0px;
-}
-
+@media (max-width: 768px) {
+  #navbar-wrapper {
+    display: none;
+  }
 
 }
 
+/* Navbar content center middle of the page */
 #navbar-wrapper {
   text-align: center;
 }
 
 #navbar-center {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 #fullpage {
@@ -133,14 +138,15 @@ body {
 }
 
 #work1 {
-  background-image:url("img/tohapi2.jpg");
+  background-image: url("img/tohapi2.jpg");
   filter: saturate(150%);
+  background-size: cover;
 }
 
 #work2 {
-  background-image:url("img/science.png");
+  background-image: url("img/science.png");
 }
 
 #work3 {
-  background-image:url("img/design-tools.jpg");
+  background-image: url("img/design-tools.jpg");
 }
