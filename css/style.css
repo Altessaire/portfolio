@@ -54,30 +54,30 @@ a:active {
 
 @media (min-width: 768px) {
   /* Navbar white links when focus/hover */
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus {
+  #nav1 .navbar-default .navbar-nav > li > a:hover,
+  #nav1 .navbar-default .navbar-nav > li > a:focus {
       color: #ffffff;
   }
 
   /* Navbar white links */
-  .navbar-default .navbar-nav > li > a {
+  #nav1 .navbar-default .navbar-nav > li > a {
       color: #ffffff;
   }
 
   /* Navbar positioning  */
-  .navbar {
+  #nav1 .navbar {
     margin-top: 25px;
   }
 
   /* Navbar Transparent */
-  .navbar-transparent {
+  #nav1 .navbar-transparent {
     background-color: transparent;
     border: none;
     width: auto;
   }
 
   /* Navbar fixed */
-  .navbar-fixed {
+  #nav1 .navbar-fixed {
     position: fixed;
     z-index: 2;
     left: 0;
@@ -86,25 +86,25 @@ a:active {
   }
 
 
-  .navbar > .nav-no-pad-left {
+  #nav1 .navbar > .nav-no-pad-left {
     padding-left: 0px;
   }
 
-  .navbar .navbar-nav {
+  #nav1 .navbar .navbar-nav {
       display: inline-block;
       float: none;
   }
 
-  .navbar .navbar-collapse {
+  #nav1 .navbar .navbar-collapse {
       text-align: center;
   }
 
-  .nav > li {
+  #nav1 .nav > li {
     width: 120px;
     text-align: center;
   }
 
-  .navbar-nav > li > a {
+  #nav1 .navbar-nav > li > a {
     padding: 0px;
     letter-spacing: .480em;
     font-size: 10px;
@@ -114,35 +114,46 @@ a:active {
     text-transform: uppercase;
   }
 
-  .navbar-link {
+  #nav1 .navbar-link {
     margin-top: 20px;
   }
 
-  .nav > li > a {
+  #nav1 .nav > li > a {
     padding: 0px;
   }
 
   /* Navbar content center middle of the page */
-  #navbar-wrapper {
+  #nav1 #navbar-wrapper {
     text-align: center;
   }
 
-  #navbar-center {
+  #nav1 #navbar-center {
     display: inline-block;
   }
 
-}
-
-@media (max-width: 768px) {
-  #navbar-wrapper {
+  #nav2 {
     display: none;
   }
 
 }
 
+@media (max-width: 768px) {
+  #nav1 {
+    display: none;
+  }
 
+  #nav2 {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 
-#fullpage {
+  #nav2 .navbar-logo {
+    height: 60px;
+  }
+
 
 }
 
