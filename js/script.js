@@ -23,7 +23,7 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['vacalians-helpdesk', 'afpa','hello'],
+        anchors:['helpdesk', 'afpa','you'],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide','thirdSlide'],
@@ -89,10 +89,6 @@ $(document).ready(function() {
         afterResponsive: function(isResponsive){},
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-    });
-
-    $('#work1').on('click', function() {
-      location.href = 'http://your-url.com'
     });
 
 
