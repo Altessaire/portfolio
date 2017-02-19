@@ -65,13 +65,13 @@ a:active {
 
 @media (min-width: 768px) {
   /* Navbar white links when focus/hover */
-  #nav1 .navbar-default .navbar-nav > li > a:hover,
-  #nav1 .navbar-default .navbar-nav > li > a:focus {
+  #nav1 .navbar-default .navbar-nav  li  a:hover,
+  #nav1 .navbar-default .navbar-nav  li  a:focus {
       color: #ffffff;
   }
 
   /* Navbar white links */
-  #nav1 .navbar-default .navbar-nav > li > a {
+  #nav1 .navbar-default .navbar-nav  li  a {
       color: #ffffff;
   }
 
@@ -97,7 +97,7 @@ a:active {
   }
 
 
-  #nav1 .navbar > .nav-no-pad-left {
+  #nav1 .navbar .nav-no-pad-left {
     padding-left: 0px;
   }
 
@@ -110,12 +110,16 @@ a:active {
       text-align: center;
   }
 
-  #nav1 .nav > li {
-    width: 120px;
+  #nav1 .nav li {
     text-align: center;
+    width: 120px;
   }
 
-  #nav1 .navbar-nav > li > a {
+  .jsunderline {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  #nav1 .navbar-nav  li  a {
     padding: 0px;
     letter-spacing: .480em;
     font-size: 10px;
@@ -129,7 +133,7 @@ a:active {
     margin-top: 20px;
   }
 
-  #nav1 .nav > li > a {
+  #nav1 .nav  li  a {
     padding: 0px;
   }
 

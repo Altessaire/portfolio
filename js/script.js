@@ -1,22 +1,26 @@
 $(document).ready(function() {
 
-  // Soulignement d'un lien actif
+  // Soulignement d'un lien de navigation actif
   function underlineNavbarActiveLink() {
-      $(".navbar-link.active").css('border-bottom', '1px solid #ffffff');
+      $(".navbar-link.active").addClass('jsunderline');
+  };
 
+  // Soulignement d'un lien de navigation survolé
+  function underlineNavbarHoverLink() {
       $(".navbar-link").hover(
         function() {
-          $(this).css('border-bottom', '1px solid #ffffff')
+          $(this).addClass('jsunderline')
         },
         function() {
           if ($(this).hasClass("active") == false) {
-            $(this).css('border-bottom', '')
+            $(this).removeClass('jsunderline')
           }
         }
       );
   };
 
   underlineNavbarActiveLink();
+  underlineNavbarHoverLink();
 
 
   $('#fullpage').fullpage({
