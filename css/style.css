@@ -179,6 +179,12 @@ a:active {
   filter: saturate(150%);
 }
 
+@media (min-height: 830px) {
+  #work1 {
+    background-size: cover;
+  }
+}
+
 #work2 {
   background-image: url("img/forest.jpg");
   background-size: cover;
