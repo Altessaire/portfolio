@@ -175,14 +175,17 @@ a:active {
 
 #work1 {
   background-image: url("img/tohapi2.jpg");
+  background-repeat: no-repeat;
   filter: saturate(150%);
-  background-size: cover;
 }
 
 #work2 {
-  background-image: url("img/science.png");
+  background-image: url("img/forest.jpg");
+  background-size: cover;
+  filter: saturate(150%);
 }
 
 #work3 {
-  background-image: url("img/design-tools.jpg");
+  background-image: url("img/light.jpg");
+  background-size: cover;
 }

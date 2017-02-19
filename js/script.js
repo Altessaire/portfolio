@@ -23,7 +23,7 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['helpdesk', 'afpa','you'],
+        anchors:[],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide','thirdSlide'],
