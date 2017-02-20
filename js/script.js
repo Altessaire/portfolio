@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+
+
   // Soulignement d'un lien de navigation actif
   function underlineNavbarActiveLink() {
       $(".navbar-link.active").addClass('jsunderline');
