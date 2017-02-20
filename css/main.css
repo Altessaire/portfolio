@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -170,6 +168,12 @@ a:active {
     left: 0;
     right: 0;
     margin: 0 auto;
+    text-transform: uppercase;
+  }
+
+  #nav2 a {
+    display: inline-block;
+    color: black;
   }
 
   #nav2 .navbar-logo {
